@@ -62,7 +62,7 @@ class FibonacciSpec extends Specification {
 
         expect:
 
-        Fibonacci.generate(50) == 6765
+        Fibonacci.generate(48) == 6765
 
     }
 }
